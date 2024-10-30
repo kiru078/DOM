@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.bt {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.bt-outline {
+    border: 1px solid #4CAF50;
+    background-color: rgb(196, 235, 222);
+    color: #4CAF50;
+}
+
+#paragraph {
+    color: black;
+}
+
+.highlight {
+    background-color: #ff90ff;
+}

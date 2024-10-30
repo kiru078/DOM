@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="title">Oi</h1>
+    <p id="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eum, at ducimus aliquam delectus
+        hic.</p>
+
+    <img id="image" src="dog.jpeg" alt="Imagem" width="250">
+
+    <div>
+        <button class="bt" onclick="alterarImagem()">Alterar Imagem</button>
+        <button class="bt" onclick="alterarTitulo()">Título</button>
+        <button class="bt" onclick="alterarCorParagrafo()">Parágrafo</button>
+        <button class="bt" onclick="tocarAudio()">Áudio</button>
+    </div>
+
+    <div>
+        <button class="bt-outline" onclick="toggleClass()">Altera Buttons</button>
+        <button class="bt-outline">botão 2</button>
+        <button class="bt-outline">botão 3</button>
+    </div>
+
+    <audio id="audio" src="Die.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
